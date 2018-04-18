@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>VuePress | 默认主题配置(default theme config)</title>
+    <meta name="description" content="Vue 驱动的静态站点生成工具">
+  <link rel="icon" href="/logo.png">
+    
+    <link rel="preload" href="/assets/css/0.styles.3a125a1f.css" as="style"><link rel="preload" href="/assets/js/app.1ad0d0b2.js" as="script"><link rel="preload" href="/assets/js/9.a123cd9d.js" as="script"><link rel="prefetch" href="/assets/js/7.bc165fcc.js"><link rel="prefetch" href="/assets/js/1.22dba145.js"><link rel="prefetch" href="/assets/js/2.c59d188d.js"><link rel="prefetch" href="/assets/js/3.0f805b04.js"><link rel="prefetch" href="/assets/js/4.7d28fbc9.js"><link rel="prefetch" href="/assets/js/5.846bb066.js"><link rel="prefetch" href="/assets/js/6.5ba9fc05.js"><link rel="prefetch" href="/assets/js/8.d1dff91a.js"><link rel="prefetch" href="/assets/js/10.cf89acca.js"><link rel="prefetch" href="/assets/js/11.74a1a55d.js"><link rel="prefetch" href="/assets/js/12.d0398875.js"><link rel="prefetch" href="/assets/js/13.08bb939a.js"><link rel="prefetch" href="/assets/js/14.8e0e44ba.js"><link rel="prefetch" href="/assets/js/15.48bbbd5d.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.3a125a1f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div><a href="/" class="router-link-active"><!----><span class="site-name">
+      VuePress
+    </span></a><div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""><!----></div><nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link">指南</a></div><div class="nav-item"><a href="/config/" class="nav-link">配置参考</a></div><div class="nav-item"><a href="/default-theme-config/" class="nav-link router-link-exact-active router-link-active">默认主题配置</a></div><a href="https://github.com/docschina/vuepress" target="_blank" rel="noopener" class="github-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header><div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/" class="nav-link">指南</a></div><div class="nav-item"><a href="/config/" class="nav-link">配置参考</a></div><div class="nav-item"><a href="/default-theme-config/" class="nav-link router-link-exact-active router-link-active">默认主题配置</a></div><a href="https://github.com/docschina/vuepress" target="_blank" rel="noopener" class="github-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav><ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>默认主题配置(default theme config)</span><!----></p><ul class="sidebar-group-items"><li><a href="/default-theme-config/#主页-homepage" class="sidebar-link">主页(Homepage)</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/default-theme-config/#导航链接-navbar-links" class="sidebar-link">导航链接(navbar links)</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/default-theme-config/#侧边栏-sidebar" class="sidebar-link">侧边栏(sidebar)</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/default-theme-config/#嵌套标题链接-nested-header-links" class="sidebar-link">嵌套标题链接(nested header links)</a></li><li class="sidebar-sub-header"><a href="/default-theme-config/#侧边栏分组-sidebar-groups" class="sidebar-link">侧边栏分组(sidebar groups)</a></li><li class="sidebar-sub-header"><a href="/default-theme-config/#多个侧边栏-multiple-sidebars" class="sidebar-link">多个侧边栏(multiple sidebars)</a></li><li class="sidebar-sub-header"><a href="/default-theme-config/#单页自动补充工具栏-auto-sidebar-for-single-pages" class="sidebar-link">单页自动补充工具栏(auto sidebar for single pages)</a></li><li class="sidebar-sub-header"><a href="/default-theme-config/#禁用侧边栏-disabling-the-sidebar" class="sidebar-link">禁用侧边栏(disabling the sidebar)</a></li></ul></li><li><a href="/default-theme-config/#上一页-下一页链接-prev-next-links" class="sidebar-link">上一页/下一页链接(prev/next links)</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/default-theme-config/#github-仓库和编辑链接" class="sidebar-link">GitHub 仓库和编辑链接</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/default-theme-config/#简单的-css-覆盖" class="sidebar-link">简单的 CSS 覆盖</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/default-theme-config/#自定义页面的-class" class="sidebar-link">自定义页面的 class</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/default-theme-config/#特定页面的自定义布局-custom-layout-for-specific-pages" class="sidebar-link">特定页面的自定义布局(custom layout for specific pages)</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/default-theme-config/#ejecting" class="sidebar-link">Ejecting</a><ul class="sidebar-sub-headers"></ul></li></ul></div></li></ul></div><div class="page"><div class="content"><h1 id="默认主题配置-default-theme-config"><a href="#默认主题配置-default-theme-config" aria-hidden="true" class="header-anchor">#</a> 默认主题配置(default theme config)</h1><div class="tip custom-block"><p class="custom-block-title">提示</p><p>此页面上列出的所有选项仅适用于默认主题。如果你使用的是自定义主题，则选项可能会有所不同。</p></div><h2 id="主页-homepage"><a href="#主页-homepage" aria-hidden="true" class="header-anchor">#</a> 主页(Homepage)</h2><p>默认主题提供了一个主页布局（用于<a href="/" class="router-link-active">该网站的主页</a>）。要使用它，需要在你的根目录 <code>README.md</code> 的 <a href="/guide/markdown.html#yaml-front-matter">YAML front matter</a> 中指定 <code>home：true</code>，并加上一些其他的元数据。这是本网站使用的实际数据：</p><pre class="language-yaml"><code><span class="token punctuation">---</span>
+<span class="token key atrule">home</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+<span class="token key atrule">heroImage</span><span class="token punctuation">:</span> /hero.png
+<span class="token key atrule">actionText</span><span class="token punctuation">:</span> 起步 →
+<span class="token key atrule">actionLink</span><span class="token punctuation">:</span> /guide/
+<span class="token key atrule">features</span><span class="token punctuation">:</span>
+<span class="token punctuation">-</span> <span class="token key atrule">title</span><span class="token punctuation">:</span> 简明优先
+  <span class="token key atrule">details</span><span class="token punctuation">:</span> 对以 markdown 为中心的项目结构，做最简化的配置，帮助你专注于创作。
+<span class="token punctuation">-</span> <span class="token key atrule">title</span><span class="token punctuation">:</span> Vue 驱动
+  <span class="token key atrule">details</span><span class="token punctuation">:</span> 享用 Vue + webpack 开发环境，在 markdown 中使用 Vue 组件，并通过 Vue 开发自定义主题。
+<span class="token punctuation">-</span> <span class="token key atrule">title</span><span class="token punctuation">:</span> 性能高效
+  <span class="token key atrule">details</span><span class="token punctuation">:</span> VuePress 将每个页面生成为预渲染的静态 HTML，每个页面加载之后，然后作为单页面应用程序(SPA)运行。
+<span class="token key atrule">footer</span><span class="token punctuation">:</span> MIT Licensed <span class="token punctuation">|</span> Copyright © 2018<span class="token punctuation">-</span>present Evan You
+<span class="token punctuation">---</span>
+</code></pre><p><code>YAML front matter</code> 的内容之后的其他任意内容，将被解析为正常 markdown，并在 features 部分之后渲染。</p><p>如果你想彻底自定义主页的布局，你还可以使用<a href="#custom-layout-for-specific-pages">自定义布局</a></p><h2 id="导航链接-navbar-links"><a href="#导航链接-navbar-links" aria-hidden="true" class="header-anchor">#</a> 导航链接(navbar links)</h2><p>你可以通过 <code>themeConfig.nav</code> 将链接添加到导航栏中：</p><pre class="language-js"><code><span class="token comment">// .vuepress/config.js</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  themeConfig<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    nav<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span> text<span class="token punctuation">:</span> <span class="token string">'Home'</span><span class="token punctuation">,</span> link<span class="token punctuation">:</span> <span class="token string">'/'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> text<span class="token punctuation">:</span> <span class="token string">'Guide'</span><span class="token punctuation">,</span> link<span class="token punctuation">:</span> <span class="token string">'/guide/'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> text<span class="token punctuation">:</span> <span class="token string">'External'</span><span class="token punctuation">,</span> link<span class="token punctuation">:</span> <span class="token string">'https://google.com'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p>如果你提供一个 <code>items</code> 而不是 <code>link</code> 的数组，这些链接也可以是下拉菜单：</p><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  themeConfig<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    nav<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        text<span class="token punctuation">:</span> <span class="token string">'Languages'</span><span class="token punctuation">,</span>
+        items<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">{</span> text<span class="token punctuation">:</span> <span class="token string">'Chinese'</span><span class="token punctuation">,</span> link<span class="token punctuation">:</span> <span class="token string">'/language/chinese'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token punctuation">{</span> text<span class="token punctuation">:</span> <span class="token string">'Japanese'</span><span class="token punctuation">,</span> link<span class="token punctuation">:</span> <span class="token string">'/language/japanese'</span> <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p>另外，你可以通过嵌套的 items 在下拉菜单中设置子分组：</p><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  themeConfig<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    nav<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        text<span class="token punctuation">:</span> <span class="token string">'Languages'</span><span class="token punctuation">,</span>
+        items<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">{</span> text<span class="token punctuation">:</span> <span class="token string">'Group1'</span><span class="token punctuation">,</span> items<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token comment">/*  */</span><span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token punctuation">{</span> text<span class="token punctuation">:</span> <span class="token string">'Group2'</span><span class="token punctuation">,</span> items<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token comment">/*  */</span><span class="token punctuation">]</span> <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h2 id="侧边栏-sidebar"><a href="#侧边栏-sidebar" aria-hidden="true" class="header-anchor">#</a> 侧边栏(sidebar)</h2><p>要启用侧边栏，请使用 <code>themeConfig.sidebar</code>。基本配置需要一系列链接：</p><pre class="language-js"><code><span class="token comment">// .vuepress/config.js</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  themeConfig<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    sidebar<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      <span class="token string">'/'</span><span class="token punctuation">,</span>
+      <span class="token string">'/page-a'</span><span class="token punctuation">,</span>
+      <span class="token punctuation">[</span><span class="token string">'/page-b'</span><span class="token punctuation">,</span> <span class="token string">'Explicit link text'</span><span class="token punctuation">]</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p>你可以省略 <code>.md</code> 扩展名，以 <code>/</code> 结尾的路径被推断为 <code>*/README.md</code> 。该链接的文本是自动推断的（从页面的第一个标题或 <code>YAML front matter</code> 中的显式标题）。如果你希望明确指定链接文本，请使用 <code>[link,text]</code> 形式的数组。</p><h3 id="嵌套标题链接-nested-header-links"><a href="#嵌套标题链接-nested-header-links" aria-hidden="true" class="header-anchor">#</a> 嵌套标题链接(nested header links)</h3><p>侧边栏自动显示当前激活页面中标题的链接，嵌套在页面本身的链接下。你可以使用 <code>themeConfig.sidebarDepth</code> 自定义此行为。默认深度是 <code>1</code>，它提取 <code>h2</code> 标题。将其设置为 <code>0</code> 将禁用标题链接，最大值为<code>2</code>，同时提取 <code>h2</code> 和 <code>h3</code> 标题。</p><p>页面也可以在使用 <code>YAML front matter</code> 时覆盖此值：</p><pre class="language-md"><code><span class="token hr punctuation">---</span>
+<span class="token title important">sidebarDepth: 2
+<span class="token punctuation">---</span></span>
+</code></pre><h3 id="侧边栏分组-sidebar-groups"><a href="#侧边栏分组-sidebar-groups" aria-hidden="true" class="header-anchor">#</a> 侧边栏分组(sidebar groups)</h3><p>你可以使用对象将侧边栏链接分成多个分组：</p><pre class="language-js"><code><span class="token comment">// .vuepress/config.js</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  themeConfig<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    sidebar<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        title<span class="token punctuation">:</span> <span class="token string">'Group 1'</span><span class="token punctuation">,</span>
+        collapsable<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        children<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+          <span class="token string">'/'</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        title<span class="token punctuation">:</span> <span class="token string">'Group 2'</span><span class="token punctuation">,</span>
+        children<span class="token punctuation">:</span> <span class="token punctuation">[</span> <span class="token comment">/* ... */</span> <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p>侧边栏分组默认情况下是可折叠的。你可以强制一个分组始终以 <code>collapsable：false</code> 打开。</p><h3 id="多个侧边栏-multiple-sidebars"><a href="#多个侧边栏-multiple-sidebars" aria-hidden="true" class="header-anchor">#</a> 多个侧边栏(multiple sidebars)</h3><p>如果你希望为不同的页面分组显示不同的侧边栏，请先将页面组织到目录中：</p><pre class="language-text"><code>.
+├─ README.md
+├─ foo
+│  ├─ README.md
+│  ├─ one.md
+│  └─ two.md
+└─ bar
+   ├─ README.md
+   ├─ three.md
+   └─ four.md
+</code></pre><p>然后，使用以下侧边栏配置：</p><pre class="language-js"><code><span class="token comment">// .vuepress/config.js</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  themeConfig<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    sidebar<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 侧边栏在 /foo/ 上</span>
+      <span class="token string">'/foo/'</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+        <span class="token string">''</span><span class="token punctuation">,</span>
+        <span class="token string">'one'</span><span class="token punctuation">,</span>
+        <span class="token string">'two'</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token comment">// 侧边栏在 /bar/ 上</span>
+      <span class="token string">'/bar/'</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+        <span class="token string">''</span><span class="token punctuation">,</span>
+        <span class="token string">'three'</span><span class="token punctuation">,</span>
+        <span class="token string">'four'</span>
+      <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="单页自动补充工具栏-auto-sidebar-for-single-pages"><a href="#单页自动补充工具栏-auto-sidebar-for-single-pages" aria-hidden="true" class="header-anchor">#</a> 单页自动补充工具栏(auto sidebar for single pages)</h3><p>如果你希望自动生成仅包含当前页面的标题链接的侧边栏，可以在该页面上使用  <code>YAML front matter</code>：</p><pre class="language-yaml"><code><span class="token punctuation">---</span>
+<span class="token key atrule">sidebar</span><span class="token punctuation">:</span> auto
+<span class="token punctuation">---</span>
+</code></pre><h3 id="禁用侧边栏-disabling-the-sidebar"><a href="#禁用侧边栏-disabling-the-sidebar" aria-hidden="true" class="header-anchor">#</a> 禁用侧边栏(disabling the sidebar)</h3><p>你可以使用 <code>YAML front matter</code> 禁用特定页面上的侧边栏：</p><pre class="language-yaml"><code><span class="token punctuation">---</span>
+<span class="token key atrule">sidebar</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+<span class="token punctuation">---</span>
+</code></pre><h2 id="上一页-下一页链接-prev-next-links"><a href="#上一页-下一页链接-prev-next-links" aria-hidden="true" class="header-anchor">#</a> 上一页/下一页链接(prev/next links)</h2><p>根据激活页面的侧边栏顺序自动推断上一个和下一个链接。你也可以使用 <code>YAML front matter</code> 来显式覆盖或禁用它们：</p><pre class="language-yaml"><code><span class="token punctuation">---</span>
+<span class="token key atrule">prev</span><span class="token punctuation">:</span> ./some<span class="token punctuation">-</span>other<span class="token punctuation">-</span>page
+<span class="token key atrule">next</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+<span class="token punctuation">---</span>
+</code></pre><h2 id="github-仓库和编辑链接"><a href="#github-仓库和编辑链接" aria-hidden="true" class="header-anchor">#</a> GitHub 仓库和编辑链接</h2><p>提供 <code>themeConfig.repo</code> 会在导航栏中自动生成一个 GitHub 链接，并在每个页面的底部显示「编辑此页面」链接。</p><pre class="language-js"><code><span class="token comment">// .vuepress/config.js</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  themeConfig<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 假定 GitHub。也可以是一个完整的 GitLab 网址</span>
+    repo<span class="token punctuation">:</span> <span class="token string">'vuejs/vuepress'</span><span class="token punctuation">,</span>
+    <span class="token comment">// 如果你的文档不在仓库的根部</span>
+    docsDir<span class="token punctuation">:</span> <span class="token string">'docs'</span><span class="token punctuation">,</span>
+    <span class="token comment">// 可选，默认为 master</span>
+    docsBranch<span class="token punctuation">:</span> <span class="token string">'master'</span><span class="token punctuation">,</span>
+    <span class="token comment">// 默认为 true，设置为 false 来禁用</span>
+    editLinks<span class="token punctuation">:</span> <span class="token boolean">true</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h2 id="简单的-css-覆盖"><a href="#简单的-css-覆盖" aria-hidden="true" class="header-anchor">#</a> 简单的 CSS 覆盖</h2><p>如果你希望对默认主题的样式应用简单的覆盖，可以创建一个 <code>.vuepress/override.styl</code> 文件。 这是 <a href="http://stylus-lang.com/" target="_blank" rel="noopener noreferrer">Stylus</a> 文件，但你也可以使用普通的 CSS 语法。</p><p>有几个颜色变量可以调整：</p><pre class="language-stylus"><code><span class="token comment">// 显示默认值</span>
+<span class="token variable-declaration"><span class="token variable">$accentColor</span> <span class="token operator">=</span> <span class="token hexcode">#3eaf7c</span></span>
+<span class="token variable-declaration"><span class="token variable">$textColor</span> <span class="token operator">=</span> <span class="token hexcode">#2c3e50</span></span>
+<span class="token variable-declaration"><span class="token variable">$borderColor</span> <span class="token operator">=</span> <span class="token hexcode">#eaecef</span></span>
+<span class="token variable-declaration"><span class="token variable">$codeBgColor</span> <span class="token operator">=</span> <span class="token hexcode">#282c34</span></span>
+</code></pre><h2 id="自定义页面的-class"><a href="#自定义页面的-class" aria-hidden="true" class="header-anchor">#</a> 自定义页面的 class</h2><p>有时，你可能需要为特定的页面添加一个唯一的 class，以便你只能在自定义 CSS 中定位该页面上的内容。 你可以在 <code>YAML front matter</code> 中用 <code>pageClass</code> 在主题的容器 div 中添加一个 class：</p><pre class="language-yaml"><code><span class="token punctuation">---</span>
+<span class="token key atrule">pageClass</span><span class="token punctuation">:</span> custom<span class="token punctuation">-</span>page<span class="token punctuation">-</span>class
+<span class="token punctuation">---</span>
+</code></pre><p>然后你就可以只编写针对该页面的 CSS：</p><pre class="language-css"><code><span class="token selector">.theme-container.custom-page-class</span> <span class="token punctuation">{</span>
+  <span class="token comment">/* 指定页面的规则 */</span>
+<span class="token punctuation">}</span>
+</code></pre><h2 id="特定页面的自定义布局-custom-layout-for-specific-pages"><a href="#特定页面的自定义布局-custom-layout-for-specific-pages" aria-hidden="true" class="header-anchor">#</a> 特定页面的自定义布局(custom layout for specific pages)</h2><p>默认情况下，每个 <code>*.md</code> 文件的内容都会显示在一个 <code>&lt;div class =“page”&gt;</code> 容器中，以及侧边栏，自动生成的编辑链接和 prev/next 链接。如果你希望使用完全自定义的组件代替页面（同时只保留导航栏），则可以使用 <code>YAML front matter</code> 再次指定要使用的组件：</p><pre class="language-yaml"><code><span class="token punctuation">---</span>
+<span class="token key atrule">layout</span><span class="token punctuation">:</span> SpecialLayout
+<span class="token punctuation">---</span>
+</code></pre><p>这将为给定页面渲染 <code>.vuepress/components/SpecialLayout.vue</code>。</p><h2 id="ejecting"><a href="#ejecting" aria-hidden="true" class="header-anchor">#</a> Ejecting</h2><p>你可以将默认主题的源代码复制到 <code>.vuepress/theme</code> 中，来使用 <code>vuepress eject [targetDir]</code> 命令彻底自定义主题。但是请注意，一旦你 eject，即使你升级 VuePress 版本，你这仍然是自己的主题，并且不会收到对默认主题的未来更新或错误修复。</p><hr><blockquote><p>原文：<a href="https://vuepress.vuejs.org/default-theme-config/" target="_blank" rel="noopener noreferrer">https://vuepress.vuejs.org/default-theme-config/</a></p></blockquote><hr></div><div class="content edit-link"><a href="https://github.com/docschina/vuepress/edit/cn/docs/default-theme-config/README.md" target="_blank">编辑此页面</a><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div><!----></div></div></div>
+    <script src="/assets/js/9.a123cd9d.js" defer></script><script src="/assets/js/app.1ad0d0b2.js" defer></script>
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?c3446600de53c605ba4f6c792e47dff9";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  </body>
+</html>
